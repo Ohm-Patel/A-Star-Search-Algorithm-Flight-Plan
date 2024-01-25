@@ -16,58 +16,6 @@ In this project the character 'A' is deemed the starting point, 'B' is the end p
 The code is  slow to terminate when no path exists between 2 points. This is an aspect of the project which I am hoping to improve in the future.
 
 
-# TESTING
-## test 1
-Input.txt:
-. . . . . . . . .
-. . . . . . B . .
-. . X X . X . . .
-. . . . X X X . .
-. A . . . . . . .
-. . . . . . . . .
-
-outputtedPath.txt:
-. . . . . . . . .
-. * * * * * B . .
-. * X X . X . . .
-. * . . X X X . .
-. A . . . . . . .
-. . . . . . . . .
-
-## test 2
-Input.txt:
-. . . . . . . . 
-. . . . . . . .
-. . . . . . . . 
-. . . . . . . . 
-. . X . . . . .
-. X A X . . B . 
-. . X . . . . . 
-. . . . . . . .
-
-result:
-NO SOLUTION
-
-## test 3
-Input.txt:
-. . X X . . . . X . . .
-X X X . . X . . . . X .
-. . X . X . X . . X B .
-. . . . . . . . . X . .
-X . X A . X . . . X . X
-. . . . . . . X . . . .
-. . X X . . . . . X . X
-
-outputtedPath.txt:
-. . X X . . . . X . . .
-X X X . . X . . . . X .
-. . X . X . X . . X B .
-. . . * * * * * * X * .
-X . X A . X . . * X * X
-. . . . . . . X * * * .
-. . X X . . . . . X . X
-
-
 # REFERENCES
 https://www.geeksforgeeks.org/a-search-algorithm/ (pseudo-code, h formula, general background information)
 http://robotics.caltech.edu/wiki/images/e/e0/Astar.pdf (background information)
