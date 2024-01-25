@@ -1,9 +1,9 @@
-# B. Waseem, K. Garg, & O. Patel
+# Ohm Patel
 # Flight Plan Group Assignment
 # Find the shortest path between A and B, avoiding obstacles ('X')
 
 
-# node
+# create node class
 class Node:
   # initialize node
   def __init__(self, parent, x, y):
